@@ -533,11 +533,19 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 
 /* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
+/* #aside-content > .card-widget.card-info > #card-info-btn {
   background-color: #3eb8be;
   border-radius: 25px;
-}
+} */
 /* 导航栏居中 */
+#menus{
+  flex:1 1 auto;
+  justify-content: flex-start;
+  margin-left: auto;
+  display: flex;
+  flex-wrap:nowrap;
+}
+/* html body div#body-wrap.post header#page-header.post-bg nav#nav.show div#menus */
 #nav-right{
   flex:1 1 auto;
   justify-content: flex-end;
@@ -569,7 +577,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 /* 导航栏字体放大 */
 #nav .menus_items{
-  font-size: 28px;
+  font-size: 26px;
 }
 #nav #search-button{
   position:relative; 
